@@ -1,0 +1,33 @@
+{
+	"licenseKey": "d9ca4d03-4b8e-4361-a336-2990f4ab1505",
+	"devtools_port": 9090,
+	"runtime": {
+		"version": "stable",
+		"arguments": "--enable-crash-reporting --no-sandbox --remote-debugging-port=9090",
+		"forceLatest": true
+	},
+	"shortcut": {
+		"company": "Archax Ltd",
+		"description": "Archax ACE Client",
+		"icon": "http://ace-core.local.archax.com:3000/archax-favicon.ico",
+		"name": "Archax",
+		"target": [
+			"desktop",
+			"start-menu"
+		]
+	},
+	"startup_app": {
+		"name": "Archax Ace",
+		"description": "Archax ACE Client",
+		"url": "http://ace-core.local.archax.com:3000",
+		"uuid": "Archax_ACE_DEV",
+		"contextMenu": true,
+		"autoShow": false,
+		"frame": false,
+		"cornerRounding": {
+			"height": 4,
+			"width": 4
+		},
+		"icon": "http://ace-core.local.archax.com:3000/archax-favicon.ico"
+	}
+}
